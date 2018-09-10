@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharpDemo", "CefSharpDemo\CefSharpDemo.csproj", "{E886C687-A598-4866-BC72-BB9E1737BA01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E886C687-A598-4866-BC72-BB9E1737BA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E886C687-A598-4866-BC72-BB9E1737BA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E886C687-A598-4866-BC72-BB9E1737BA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E886C687-A598-4866-BC72-BB9E1737BA01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D355AA-8FB8-4020-9057-EA169446F0B0}
+	EndGlobalSection
+EndGlobal
