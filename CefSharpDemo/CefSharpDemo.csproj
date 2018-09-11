@@ -72,6 +72,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoundObject.cs" />
+    <Compile Include="CallbackResponseStruct.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,2 +1,40 @@
 ﻿<h1>HTML</h1>
 <h1>HTML</h1>
+
+<script type="text/javascript">
+    (async function () {
+        await CefSharp.BindObjectAsync("bound");
+
+        let result = bound.myMethod()
+        alert(result);
+    })();
+    //(async function () {
+    //    await CefSharp.BindObjectAsync("boundAsync");
+
+    //    boundAsync.div(16, 2).then(function (actualResult) {
+    //        const expectedResult = 8
+    //        assert.equal(expectedResult, actualResult, "Divide 16 / 2 resulted in " + expectedResult);
+    //    });
+
+    //    boundAsync.error().catch(function (e) {
+    //        var msg = "Error: " + e + "(" + Date() + ")";
+    //    });
+    //})();
+
+    //(async () => {
+    //    await CefSharp.BindObjectAsync("boundAsync");
+
+    //    boundAsync.hello('CefSharp').then(function (res) {
+    //        assert.equal(res, "Hello CefSharp")
+    //    });
+    //})();
+
+    //CefSharp.BindObjectAsync("boundAsync2").then(function (result) {
+    //    boundAsync2.hello('CefSharp').then(function (res) {
+    //        assert.equal(res, "Hello CefSharp")
+    //        // NOTE the ability to delete a bound object
+    //        assert.equal(true, CefSharp.DeleteBoundObject("boundAsync2"), "Object was unbound");
+    //        assert.ok(window.boundAsync2 === undefined, "boundAsync2 is now undefined");
+    //    });
+    //});
+</script>

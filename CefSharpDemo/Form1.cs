@@ -19,11 +19,14 @@ namespace CefSharpDemo
         public void InitializeChromium()
         {
             CefSettings settings = new CefSettings();
+            settings.RemoteDebuggingPort = 8088;
             // Initialize cef with the provided settings
             Cef.Initialize(settings);
             // Create a browser component
             chromeBrowser = new ChromiumWebBrowser("");
             chromeBrowser.LoadHtml(Properties.Resources.index);
+            chromeBrowser.JavascriptObjectRepository.Register("bound", new BoundObject(), false);
+
             // Add it to the form and fill it to the form window.
             this.Controls.Add(chromeBrowser);
             chromeBrowser.Dock = DockStyle.Fill;
